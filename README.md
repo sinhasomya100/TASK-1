@@ -47,26 +47,26 @@ The dataset is now fully cleaned and structured, making it suitable for:
 ---
 
 Q1. What was the dataset about?
-ANS Car pricing and related details.
+Ans Car pricing and related details.
 
 Q2. What cleaning steps did you perform?
-ANS Removed duplicates, fixed missing data, formatting, and standardized columns.
+Ans Removed duplicates, fixed missing data, formatting, and standardized columns.
 
 Q3. Which tools did you use for cleaning?
-ANS Microsoft Excel.
+Ans Microsoft Excel.
 
 Q4. What Excel functions did you use?
-ANS IF, ISBLANK, LOWER, TRIM, conditional formatting, sorting/filtering.
+Ans IF, ISBLANK, LOWER, TRIM, conditional formatting, sorting/filtering.
 
 Q5. How did you handle missing values?
-ANS Filled with "unknown", average values, or logical estimations.
+Ans Filled with "unknown", average values, or logical estimations.
 
 Q6. How many rows are there in your final file?
-ANS 100 cleaned rows.
+Ans: 100 cleaned rows.
 
 Q7. Why is data cleaning important?
-ANS It ensures reliable, accurate analysis and insights.
+Ans It ensures reliable, accurate analysis and insights.
 
 ---
 
-Prepared by: Somya Sinha,Aspiring Data Analyst
+Prepared by: Somya Sinha, Aspiring Data Analyst
