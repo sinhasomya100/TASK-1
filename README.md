@@ -62,7 +62,7 @@ Q5. How did you handle missing values?
 Ans Filled with "unknown", average values, or logical estimations.
 
 Q6. How many rows are there in your final file?
-Ans: 100 cleaned rows.
+Ans: 50 cleaned rows.
 
 Q7. Why is data cleaning important?
 Ans It ensures reliable, accurate analysis and insights.
