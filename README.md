@@ -1,72 +1,96 @@
-
-Task 1–Data Cleaning and Preprocessing (April 7 Task) 
-This project involves cleaning, transforming, and preparing a real-world dataset for analysis.
-
-Files Included
-
- File Name             Description                                  
---------------------------------------------------------------------
- `7 APRIL TASK.xlsx`   Final cleaned dataset (100 rows)             
- `task 1.pdf`           Task instructions                            
- `README.md`           This file – full summary and explanation     
-
-  Cleaning Steps Performed
-
-✔ Removed duplicates  
-✔Filled missing values using logic (mode, median, or 'unknown')  
-✔ Fixed inconsistent formats (like casing, categories)  
-✔ Renamed confusing column names  
-✔ Properly converted date formats
-✔ Verified all data types
-
-
- Logic Used
-
-- Text Columns: Used `=IF()` and `=LOWER()` to normalize
-- Date Column: Parsed using Excel date functions
-- Missing Values: Used `=IF(ISBLANK(...))` logic
-- Duplication: Filtered using conditional formatting
-
-
-
-  Tools Used
-
--  Microsoft Excel
--  GitHub
-
-
- Summary
-
-The dataset is now fully cleaned and structured, making it suitable for:
-
-- Data Visualization
--  Analytics
-
-  Interview Questions & Answers – TASK 1
+ 🚗 Task 1 – Data Cleaning & Preprocessing (Excel-Based)
+ 
+ • Tool Used: Microsoft Excel
+ • Dataset: Car Price Dataset (Kaggle)
 
 ---
 
-Q1. What was the dataset about?
-Ans Car pricing and related details.
+🎯 Objective
+Clean a raw dataset using **Excel** by identifying and fixing:
+- ❌ Missing values
+- 📄 Duplicate rows
+- 🧩 Inconsistent text/casing
+- 📅 Non-uniform date formats
+- 🧮 Incorrect data types
 
-Q2. What cleaning steps did you perform?
-Ans Removed duplicates, fixed missing data, formatting, and standardized columns.
-
-Q3. Which tools did you use for cleaning?
-Ans Microsoft Excel.
-
-Q4. What Excel functions did you use?
-Ans IF, ISBLANK, LOWER, TRIM, conditional formatting, sorting/filtering.
-
-Q5. How did you handle missing values?
-Ans Filled with "unknown", average values, or logical estimations.
-
-Q6. How many rows are there in your final file?
-Ans: 50 cleaned rows.
-
-Q7. Why is data cleaning important?
-Ans It ensures reliable, accurate analysis and insights.
+Goal: Make the data clean, consistent, and ready for analysis.
 
 ---
 
-Prepared by: Somya Sinha, Aspiring Data Analyst
+## 📂 Dataset Overview
+|               | Raw Data | Cleaned Data |
+|---------------|----------|--------------|
+| Rows          | 301      | 298          |
+| Columns       | 16       | 16           |
+| Null Values   | 3        | 0            |
+| Duplicates    | 1        | 0            |
+
+---
+
+ 🛠 Excel Cleaning Steps
+
+ 1️⃣ Missing Values
+- Applied filters → found blanks in `condition`, `odometer`, `color`
+- Removed 3 rows with critical missing data
+
+ 2️⃣ Remove Duplicates
+- Used **Data → Remove Duplicates** (across all columns)
+
+ 3️⃣ Standardized Text Formats
+- Applied `=PROPER()` to fix inconsistent casing (e.g., `bmw` → `Bmw`)
+- Used **Find & Replace** to clean up repeated seller formats
+
+ 4️⃣ Column Header Formatting
+- Renamed columns: `Year` → `year`, `SellingPrice` → `selling_price`, etc.
+- Ensured no spaces, consistent lowercase
+
+5️⃣ Date Formatting
+- Fixed `saledate` column to show consistent format → `dd-mm-yyyy`
+
+6️⃣ Verified Data Types
+- Checked that `odometer`, `mmr`, and `sellingprice` are numeric
+- Dates set to proper format in Excel
+
+---
+ ✅ Results After Cleaning
+- Dataset now has **no nulls**, **no duplicates**, and clean, readable formatting.
+- All text is standardized, numeric formats are correct, and dates are consistent.
+- Ready for analysis or visualization!
+
+---
+📁 Files Included in this Repo
+File	Description
+car_price_raw.xlsx                   	Original raw dataset
+car_price_cleaned.xlsx               	Cleaned dataset after all steps
+README.md	                            Task explanation and documentation
+screenshots                            visuals from Excel
+
+🧠 What I Learned
+- How to clean data in Excel using built-in tools
+- How to handle missing values, remove duplicates, and format text/dates properly
+- Why standardization and formatting is crucial before analysis
+- Documenting the cleaning process is just as important as doing it
+
+---
+ 📝 Notes
+- Excel’s native tools (filters, functions, formatting) are powerful for quick cleaning
+- Cleaned data reduces risk of incorrect analysis or model training
+- Always save a backup of the original dataset before cleaning!
+
+
+🔚 Conclusion
+This task gave me hands-on experience with Excel’s powerful data cleaning tools. I feel confident handling messy datasets and prepping them for real-world analysis. 🧠✅
+
+
+👨‍💻 Author
+
+Somya Sinha Aspiring Data Analyst | SQL Enthusiast | Excel & Power BI Learner
+
+🔗 www.linkedin.com/in/somyasinha100 
+📧 somyasinha615@gmail.com
+
+
+
+
+
+
